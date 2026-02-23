@@ -20,16 +20,12 @@ Both expose the same `MCP_CAN` API and are interchangeable.
 
 | Sketch | Description |
 |--------|-------------|
-| `can_bus_simulator` | Serial-based CAN bus simulator (no hardware needed) |
-| `can_test` | Heartbeat TX + loopback RX diagnostic tool |
-| `receive_250k_int` | Interrupt-driven receive at 250 kbps |
-| `receive_250k_poll` | Polled receive at 250 kbps |
-| `receive_check_cs10_250k_for_inteleryV1` | Receive with CS pin 10 (Intelery v1 board) |
+| `can_test` | Heartbeat TX + loopback RX + status + serial commands |
 | `send_11bit_250k_incr` | Send 11-bit frames with incrementing data |
-| `template_app1` | Starter template for new sketches |
+| `can_bus_simulator` | Serial-based CAN bus simulator (no hardware needed) |
 
 ## Defaults
 
 - **Baud rate**: 250 kbps
 - **Crystal**: 16 MHz
-- **CS pin**: 9 (some sketches use 10)
+- **CS pin**: 10
