@@ -1,10 +1,10 @@
-# Arduino (MCP2515 + Seeed CAN-BUS Shield)
+# Arduino (MCP2515)
 
-Example sketches for the **MCP2515 CAN controller** (Seeed CAN-BUS Shield v1.2 and compatible boards).
+Example sketches for **MCP2515-based CAN shields** (Seeed, Intelery, or any MCP2515 + MCP2551/MCP2562 board).
 
 ## Hardware
 
-- Seeed CAN-BUS Shield v1.2 (MCP2515 + MCP2551)
+- Any MCP2515-based CAN shield or breakout board
 - Arduino Uno / Mega (or compatible)
 
 ## Library Dependency
