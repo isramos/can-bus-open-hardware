@@ -28,6 +28,10 @@ Developed by [CAN Bus Academy](https://canbusacademy.com) for lab, classroom, an
 - **TRRS (4-pole)** — compatible; RING2 is unused and shorts to SLEEVE (GND) with a TRS plug, which is harmless
 - **TS (2-pole mono)** — not compatible; RING (CAN_L) would short to SLEEVE (GND)
 
+### Why CAN_L is on RING (not RING2)
+
+When using a TRRS jack, CAN_L must be assigned to the ring closest to the tip (RING1 / "Ring Tip"). When a TRS plug is inserted into a TRRS jack, the sleeve bridges RING2 and SLEEVE together. If CAN_L were on RING2, it would short to GND and kill the bus. With CAN_L on RING1, the TRS plug contacts it cleanly as its RING, and the RING2-to-SLEEVE short is harmless.
+
 Use standard 3.5mm stereo (TRS) cables. Available everywhere, low cost.
 
 ## Rationale

@@ -4834,7 +4834,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <attribute name="PARTNO" value="PJ30220"/>
 </part>
 <part name="X1" library="SparkFun" deviceset="DB9" device="FEMALE"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="60"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="120"/>
 <part name="RT" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="J3" library="igor_lib_6d4d0" deviceset="AUDIO_JACK_4POS" device="A" value="PJ-30220">
 <attribute name="PARTNO" value="PJ30220"/>

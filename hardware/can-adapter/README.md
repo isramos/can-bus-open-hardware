@@ -13,7 +13,7 @@ Connects a standard DB9 CAN interface (vehicle, analyzer, or bench setup) to thr
 
 - **Size**: 18.7 x 31.8 mm (2-layer)
 - **Connectors**: 1x DB9 female, 3x PJ-30220 (3.5mm TRRS jack)
-- **Termination**: 60 ohm resistor with solder jumper (RT). 60 ohm provides full bus termination from a single point (equivalent to two 120 ohm resistors in parallel). Use 120 ohm if both ends of the bus are terminated.
+- **Termination**: 120 ohm resistor with solder jumper (RT). Standard CAN termination for one end of the bus. Alternatively, use 60 ohm for single-point termination (equivalent to two 120 ohm resistors in parallel) when only one endpoint is terminated.
 - **Breakout header**: JP3 exposes CAN_H, CAN_L, GND for probing or external wiring
 - **Passive** — no active components, no power required
 
@@ -43,7 +43,7 @@ Do not cross-connect without verifying pinouts. A crossover cable or re-pinned a
 |-----|------|-------|
 | X1 | DB9 female | — |
 | J1, J2, J3 | PJ-30220 | 3.5mm 4-pole audio jack |
-| R1 | Resistor (0805) | 60 ohm |
+| R1 | Resistor (0805) | 120 ohm (see note below) |
 | RT, JP3 | Solder jumper | Termination enable |
 
 ## Files
