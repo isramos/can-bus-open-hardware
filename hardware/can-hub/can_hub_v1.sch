@@ -782,6 +782,10 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
+<text x="187.96" y="11.43" size="2.54" layer="94" font="vector">CBA-CAN-HUB-001</text>
+<text x="244.475" y="11.43" size="2.54" layer="94" font="vector">1.0</text>
+<text x="148.59" y="30.48" size="2.54" layer="94" font="vector">CAN Bus Academy (canbusacademy.com)</text>
+<text x="148.59" y="25.4" size="1.778" layer="94" font="vector">Design: Igor Ramos | License: Open Source Hardware</text>
 </plain>
 <instances>
 <instance part="J2" gate="G$1" x="71.12" y="111.76" rot="MR180">
