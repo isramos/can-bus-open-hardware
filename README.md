@@ -21,3 +21,12 @@ Each platform folder has its own README with wiring, library dependencies, and d
 Every platform includes a simple send + receive example that sends a heartbeat frame and prints received frames.
 
 All examples default to **250 kbps**.
+
+## Hardware
+
+Open-source PCB designs for CAN bus lab equipment, using the [CBA-CAN-TRS](hardware/CBA-CAN-TRS.md) connector spec (CAN bus over 3.5mm TRS audio jacks).
+
+| Board | Description | Folder |
+|-------|-------------|--------|
+| [CAN Adapter](hardware/can-adapter/) | DB9 to 3x TRS breakout + termination | `hardware/can-adapter/` |
+| [CAN Hub](hardware/can-hub/) | 6-port TRS passive CAN bus hub | `hardware/can-hub/` |
