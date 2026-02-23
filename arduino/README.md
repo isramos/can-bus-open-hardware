@@ -1,4 +1,4 @@
-# MCP2515 (Arduino + Seeed CAN-BUS Shield)
+# Arduino (MCP2515 + Seeed CAN-BUS Shield)
 
 Example sketches for the **MCP2515 CAN controller** (Seeed CAN-BUS Shield v1.2 and compatible boards).
 
