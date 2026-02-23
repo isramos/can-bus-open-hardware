@@ -48,6 +48,6 @@ Do not cross-connect without verifying pinouts. A crossover cable or re-pinned a
 
 ## Files
 
-- `adapter1.sch` — Eagle schematic
-- `adapter1.brd` — Eagle board layout
+- `db9_trs_adapter.sch` — Eagle schematic
+- `db9_trs_adapter.brd` — Eagle board layout
 - `gerbers/` — production-ready Gerber files
